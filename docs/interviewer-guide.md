@@ -2,7 +2,7 @@
 
 Two-stage test. **Part 1** is the take-home ([candidate-task.md](candidate-task.md)) — assume AI wrote a large share of it; that is fine and expected. **Part 2** is a ~60-minute live session on _their_ submission. Part 2 is where the real signal is: can they explain, extend, and debug the code they submitted when requirements change in real time?
 
-A reference implementation lives in `solution/` — use it to calibrate what "good" looks like and to demo expected behavior. File paths below refer to it.
+A reference implementation lives in `solution/` — use it to calibrate what "good" looks like and to demo expected behavior. File paths below refer to it. **It is not on `main`** (so it never reaches a candidate who forks/clones this repo) — run `git checkout solution` to get it.
 
 ## Why two stages, not one
 
